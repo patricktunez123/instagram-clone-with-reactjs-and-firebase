@@ -7,17 +7,17 @@
 }
 .post__media {
   max-height: 400px;
-  width: 100%;
+  width: fit-content;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
   object-fit: contain;
 }
-.post__header p {
+.post__header {
   display: flex;
   padding: 10px;
   align-items: center;
 }
-.post__header p span {
+.post__header span {
   padding-left: 10px;
   font-weight: 900;
 }

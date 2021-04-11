@@ -6,9 +6,7 @@ const Post = ({ username, media, caption }) => {
   return (
     <div className="post">
       <div className="post__header">
-        <p>
-          <icon.Avatar /> <span>{username}</span>
-        </p>
+        <icon.Avatar /> <span>{username}</span>
       </div>
       <img className="post__media" alt="Media" src={media} />
       <div className="post__footer">
