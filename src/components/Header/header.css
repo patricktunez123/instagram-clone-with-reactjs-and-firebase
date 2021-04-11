@@ -1,0 +1,7 @@
+.app__header {
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.logo__img {
+  object-fit: contain;
+}
